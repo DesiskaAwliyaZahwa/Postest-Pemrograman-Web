@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Postest 3</title>
+</head>
+<body>
+	<form action="action" method="GET">
+		<div>
+			<table bgcolor="white" border="1" cellpadding="6" cellspacing="6">
+			<td>
+			<label for="Nama">Nama &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+			<input type="text" id="Nama" name="" size="30">
+			<br>
+			<br>
+			<label for="Alamat">Alamat &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+			<input type="text" id="Alamat" name="" size="50">
+			<br>
+			<br>
+			<label for="Telp">Telp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+			<input type="text" id="Telp" name="" size="15">
+			<br>
+			<br>
+			<label for="Jenis Kelamin">Jenis Kelamin &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:</label>
+			<input type="radio" id="Jenis Kelamin" name="">Laki-laki
+			&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="radio" id="Jenis Kelamin" name="">Perempuan
+			<br>
+			<br>
+			<label>Agama &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:
+        		<select style="min-width: 180px">
+          			<option value="Islam">Islam</option>
+          			<option value="Kristen">Kristen</option>
+          			<option value="Katolik">Katolik</option>
+          			<option value="Konghucu">Konghucu</option>
+          			<option value="Lain-Lain">Lain-Lain</option>
+        		</select>
+      		</label>
+			<br>
+			<br>
+			<label for="Prestasi yang pernah diraih" id="Prestasi yang pernah diraih" name="">Prestasi yang pernah diraih :</label>
+			<textarea>
+			</textarea>
+			<br>
+			<br>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="submit" name="submit" value="Simpan">
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<input type="submit" name="submit" value="Batal">
+
+			</td>
+			</table>
+		</div>
+	</form>
+
+</body>
+</html>
