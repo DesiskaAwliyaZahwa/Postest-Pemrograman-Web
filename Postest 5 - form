@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>POSTEST 5</title>
+	    <link rel="stylesheet" type="text/css" href="desain.css">
+</head>
+<body style="background-image: url(ft.jpg);">
+	<div class="wrap">
+		<div class="header">			
+		</div>
+		<div class="menu">
+            <ul>
+                <li><a href="http://localhost/desiska/postest/postest5.html" target="-blank" style="color: white;">Home</a></li>
+                <li><a href="http://localhost/desiska/postest/profile.html" target="-blank" style="color: white;">News</a></li>
+                <li><a href="https://www.instagram.com/desiskaawliya/" target="-blank" style="color: white;">Contact</a></li>
+            </ul>
+		</div>
+		<div class="badan">			
+			<div class="sidebar">
+				<ul>
+                    <li><a href="http://bimawa.uad.ac.id/" target="-blank">Bimawa UAD</a></li>
+                    <br>
+                    <li><a href="https://elearning.uad.ac.id/" target="-blank">Elearning UAD</a></li>
+                    <br>
+                    <li><a href="https://portal.uad.ac.id/" target="-blank">Portal UAD</a></li>
+                </ul>
+			</div>
+			<div class="content">
+                <center>
+                    <br>
+                    <h2><b>SELAMAT DATANG DI UNIVERSITAS AHMAD DAHLAN</b></h2>
+                    <h4>Silakan Melakukan Pengisian Formulir Guest / Tamu</h4>
+                </center>
+                
+            <form method="POST">
+                <table>
+                    <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
+                    <tr>
+                        <td>Nama</td><td>:</td>
+                        <td><input type="text" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td><td>:</td>
+                        <td><input type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td><td>:</td>
+                        <td><input type="radio" name="jenis kelamin" value="Laki-Laki" checked/>Laki-Laki
+                        <input type="radio" name="jenis kelamin" value="Perempuan">Perempuan</td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td><td>:</td>
+                        <td><textarea name="alamat"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Asal Kota</td><td>:</td>
+                        <td>
+                            <select name="asal kota">
+                                <option value="Jakarta">Jakarta</option>
+                                <option value="Surabaya">Surabaya</option>
+                                <option value="Palembang">Palembang</option>
+                                <option value="Makassar">Makassar</option>
+                                <option value="Semarang">Bandung</option>
+                                <option value="Balikpapan">Balikpapan</option>
+                                <option value="Medan">Medan</option>
+                                <option value="Surakarta">Surakarta</option>
+                                <option value="Yogyakarta">Yogyakarta</option>
+                                <option value="Others">Others</option>                                
+                            </select>
+                        </td>
+                    </tr>
+                    <tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr></tr><tr></tr><tr></tr>
+                    <tr>
+                        <td><td><td><input type="submit" value="Submit"></td></td></td>
+                        <td><td><input type="submit" value="Batal"></td></td>
+                    </tr>
+                </table>
+            </form>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="footer">
+		</div>
+	</div>
+</body>
+</html>
